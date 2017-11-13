@@ -1,2 +1,3 @@
-# firstRepository
-My first repository
+I am self-taught Java Script developer. Sounds great, but not actually true.
+I started to learn Java and after a long unproductive year started to switch to something more resultative.
+JS is the thing now. Let me see where it will go.
