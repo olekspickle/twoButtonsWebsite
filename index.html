@@ -4,6 +4,7 @@
 <head>
   <meta charset="utf-8">
   <script src="go.js"></script>
+  <script src="./dist/bundle.js"></script>
   <meta name='viewport' content='width=device-width, initial-scale=1.0'>
   <link rel='icon' type='image/ico' href='favicont.ico'>
   <title> Go-go </title>
@@ -32,6 +33,13 @@
   <button id='auth' onclick="getAuth()">Authorization</button>
 
   <button id='age' onclick='getAge();'>Age</button>
+
+  <script>
+
+
+  var Person = require("babel!./Person.js").default;
+  new Person();
+  </script>
 </div>
 
 </body>
