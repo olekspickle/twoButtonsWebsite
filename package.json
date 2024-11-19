@@ -1,0 +1,17 @@
+{
+  "name": "twoButtonsWebsite",
+  "version": "0.0.1",
+  "dependencies": {},
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "jshint": "^2.9.5",
+    "jshint-loader": "^0.8.4",
+    "moment": "^2.19.2",
+    "scripts": {
+      "build": "webpack -p",
+      "watch": "webpack --watch"
+    },
+    "webpack": "^3.8.1"
+  }
+}
