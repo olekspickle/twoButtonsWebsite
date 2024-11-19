@@ -1,14 +1,14 @@
 'use strict;'
 
 function getAge(){
-    var a = prompt('Сколько тебе лет?','dohuya');
+    var a = prompt('Сколько тебе лет?','a lot');
     if(a===null){alert('У тебя что, цифры платные?');}else{
     alert('Вам ' + a + " лет!" );}
 };
 
 
 function getAuth(){
-  var userName = prompt('Who the hell are you?', 'Nobody');
+  var userName = prompt('Who the hell are you?', "");
   if(userName.toLowerCase() == 'aleks'||userName.toLowerCase() =='julia'){
 
     var password = prompt('Password, please.','');
@@ -20,6 +20,6 @@ function getAuth(){
     }
 
   }else{
-    alert('Get lost you, little piece of shit!');
+    alert('Get lost you, little arrogant creature!');
   }
 };
